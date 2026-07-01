@@ -53,4 +53,36 @@
 - Test del proyecto en la consola de VisualStudio.
 ![15](<DOCS/Tests - Gabriel Haro.png>)
 
+### Integrante: Quintana, Rony
+1. Clonar repositorio
+![1](<docs-Quintana/PrimeroEvidencia.png>)
+
+2. Levantar proyecto
+
+- Instalación de dependencias y ejecución con Vite. Se visualiza la página de inicio de CineSpoilerS corriendo en `localhost:5173`.
+![2](<docs-Quintana/SegundaEvidencia.png>)
+
+3. Consumir data de TMDB
+
+- Configuración de las variables de entorno (`VITE_TMDB_API_KEY`, `VITE_TMDB_BASE_URL`, `VITE_TMDB_IMAGE_BASE_URL`) y listado de películas destacadas obtenidas desde la API de TMDB.
+![3](<docs-Quintana/TerceraEvidencia.png>)
+
+4. Implementar estado global (Zustand)
+
+- Store del carrito (`cart-store.ts`) con `addItem`, `removeItem`, `updateQuantity` y `clearCart`, persistido con `zustand/middleware`. Se refleja el contador de productos agregados en el ícono del carrito.
+![4](<docs-Quintana/CuartaEvidencia.png>)
+
+5. Desarrollar todas las pages
+
+- Página de la lista de películas (`movies-page.tsx`), mostrando el grid de películas populares con paginación.
+![5](<docs-Quintana/QuintaEvidencia!page-movie!.png>)
+
+- Página de detalles de película (`movie-detail-page.tsx`), mostrando la información del título seleccionado y el botón para agregar al carrito.
+![6](<docs-Quintana/QuintaEvidencia!page-details!.png>)
+
+6. Agregar tests al proyecto
+
+- Ejecución de `npm run test` en la consola de VisualStudio Code: 2 archivos de test y 14 pruebas superadas correctamente (`movies-service.test.ts` y `cart-store.test.ts`).
+![7](<docs-Quintana/SextaEvidencia.png>)
+
 
