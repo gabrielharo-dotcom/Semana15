@@ -72,6 +72,9 @@
 - Store del carrito (`cart-store.ts`) con `addItem`, `removeItem`, `updateQuantity` y `clearCart`, persistido con `zustand/middleware`. Se refleja el contador de productos agregados en el ícono del carrito.
 ![4](<docs-Quintana/CuartaEvidencia.png>)
 
+- Página de Checkout, donde se consume el estado global de Zustand para mostrar las entradas seleccionadas, la cantidad, el total y procesar el pago simulado.
+![4.1](<docs-Quintana/Zustand.png>)
+
 5. Desarrollar todas las pages
 
 - Página de la lista de películas (`movies-page.tsx`), mostrando el grid de películas populares con paginación.
