@@ -88,4 +88,31 @@
 - Ejecución de `npm run test` en la consola de VisualStudio Code: 2 archivos de test y 14 pruebas superadas correctamente (`movies-service.test.ts` y `cart-store.test.ts`).
 ![7](<docs-Quintana/SextaEvidencia.png>)
 
+### integrante Oscar Olano Paniora
+
+1. Clonar repositorio
+![1](<DOCS/clonar repositorio-OSCAR OLANO.jpg>)
+
+2. Levantar proyecto
+![2](<DOCS/Levantar proyecto-Oscar olano.jpg>)
+
+3. Consumir data de TMDB
+
+- Aparece las películas con sus portadas y títulos de TMDB.
+![3](<DOCS/CONSUMO DE TMDB-Oscar olano.jpg>)
+
+
+4. Implementar estado global (Zustand)
+
+- Damos click en agregar película y se agrega en el carrito.
+![4](<DOCS/Implemetacion de zustand-Oscar olano.jpg>)
+
+5. Desarrollar todas los pages
+![5](<DOCS/desarrollo de todas las paginas 1 -Oscar olano.jpg>)
+![6](<DOCS/desarrollo de todas las paginas.jpg>)
+
+6. Agregar pasarela de pagos de película comprada (Simulación)
+![7](<DOCS/Pasarela de pago 1 -OSCAR OLANO.jpg>)
+
+![8](<DOCS/Pasarela de pago 2-OSCAR OLANO.jpg>)
 
